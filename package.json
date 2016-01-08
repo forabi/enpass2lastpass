@@ -1,0 +1,30 @@
+{
+  "name": "enpass2lastpass",
+  "version": "1.0.0",
+  "description": "Converts plain text files exported from Enpass to CSV output compatible with LastPass import tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Fawwaz Orabi <mfawwaz93@gmail.com> (http://forabi.github.io)",
+  "bugs": {
+    "url": "https://github.com/forabi/enpass2lastpass/issues"
+  },
+  "homepage": "https://github.com/forabi/enpass2lastpass#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forabi/enpass2lastpass.git"
+  },
+  "dependencies": {
+    "highland": "^2.6.0"
+  },
+  "bin": {
+    "enpass2lastpass": "./index.js"
+  },
+  "engine": {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  }
+}
