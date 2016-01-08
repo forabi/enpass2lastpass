@@ -6,6 +6,8 @@ A little script that converts plain text files produced by Enpass export tool to
 Usage
 ------
 
+_Note: Node >= 5.0 is required._
+
 1. Install globally:
 
   ```shell
