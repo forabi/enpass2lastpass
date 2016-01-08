@@ -9,13 +9,17 @@ Usage
 _Note: Node >= 5.0 is required._
 
 1. Install globally:
+
   ```shell
   npm install -g enpass2lastpass
-  ```  
+  ```
+
 2. The script accepts a path to a text file and outputs to stdout:
+
   ```shell
   enpass2lastpass ./enpass-export.txt > lastpass-import.csv
   ```
+
 3. Done!
 
 Contribution
