@@ -34,8 +34,8 @@ _(fs.createReadStream(filename, 'utf8'))
     .filter(x => x)
     .concat([['name', s[0]]])
     .reduce((o, field) => {
-        o[field[0]] = field[1]
-        return o
+        o[field[0]] = field[1];
+        return o;
     }, {})
 })
 .filter(x => x.password && x.url)
@@ -60,9 +60,9 @@ _(fs.createReadStream(filename, 'utf8'))
     return x;
 })
 .map(x => {
-    x.username = x.username || x.email || 'mfawwaz93@gmail.com';
+    x.username = x.username || x.email;
     return x;
 })
 .map(x => [x.name, x.url, x.username, x.password, x.notes].join() + '\n')
 .tap(x => a++)
-.pipe(process.stdout)
+.pipe(process.stdout);
