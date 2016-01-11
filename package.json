@@ -18,7 +18,8 @@
     "url": "git+https://github.com/forabi/enpass2lastpass.git"
   },
   "dependencies": {
-    "highland": "^2.6.0"
+    "highland": "^2.6.0",
+    "minimist": "^1.2.0"
   },
   "bin": {
     "enpass2lastpass": "./index.js"
