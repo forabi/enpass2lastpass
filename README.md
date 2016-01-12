@@ -25,6 +25,7 @@ _Note: Node >= 5.0 is required._
     * `--clean-names` or `-n`: removes 'Generated Password for ' from the title (default: true).
     * `--clean-urls` or `-l`: removes query strings from the URL (default: true).
     * `--default-email` or `-e`: an email address to use for entries without a username or an email.
+    * `--output` or `-o`: if specified, output would be saved to this file instead of printed to stdout.
   
 3. Done!
 
