@@ -22,9 +22,9 @@ _Note: Node >= 5.0 is required._
 
   Options:
     * `--ignore-empty` or `-i`: removes entries that are missing both a url and a password  (default: true).
-    * `--clean-names` or `-n`: Removes 'Generated Password for ' from the title (default: true).
-    * `--clean-urls` or `-l`: Removes query strings from the URL (default: true).
-    * `--default-email` or `-e`: An email address to use for entries without a username or an email.
+    * `--clean-names` or `-n`: removes 'Generated Password for ' from the title (default: true).
+    * `--clean-urls` or `-l`: removes query strings from the URL (default: true).
+    * `--default-email` or `-e`: an email address to use for entries without a username or an email.
   
 3. Done!
 
