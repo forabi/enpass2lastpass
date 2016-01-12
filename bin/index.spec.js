@@ -17,7 +17,7 @@ describe('Output', () => {
   });
 
   it('should output to stdout by default', (done) => {
-    exec(`./bin/index.js ${filename}`, (err, stdout, stderr) => {
+    exec(`node ./bin/index.js ${filename}`, (err, stdout, stderr) => {
       assert.ifError(stderr);
       assert.equal(stdout, fixture1);
       done();
@@ -25,7 +25,7 @@ describe('Output', () => {
   });
 
   it('can output to a file instead', (done) => {
-    exec(`./bin/index.js ${filename} -o ${tmpFilename}`, (err, stdout, stderr) => {
+    exec(`node ./bin/index.js ${filename} -o ${tmpFilename}`, (err, stdout, stderr) => {
       assert.ifError(stderr);
 
       fs.readFile(tmpFilename, 'utf8', (tmpErr, tmpOutput) => {
@@ -39,7 +39,7 @@ describe('Output', () => {
 
 it('should recognize options', (done) => {
   fs.readFile('./fixtures/output2.txt', 'utf8', (readErr, fixture2) => {
-    exec('./bin/index.js ' + filename + ' --clean-names false ' +
+    exec('node ./bin/index.js ' + filename + ' --clean-names false ' +
     '--clean-urls true --ignore-empty false', (err, stdout, stderr) => {
       assert.ifError(stderr);
       assert.equal(stdout, fixture2);
