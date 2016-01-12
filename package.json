@@ -1,6 +1,6 @@
 {
   "name": "enpass2lastpass",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Converts plain text files exported from Enpass to CSV output compatible with LastPass import tool",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "minimist": "^1.2.0"
   },
   "bin": {
-    "enpass2lastpass": "./index.js"
+    "enpass2lastpass": "./bin/index.js"
   },
   "engine": {
     "node": ">=5.0.0",
