@@ -40,7 +40,7 @@ describe('Output', () => {
 it('should recognize options', (done) => {
   fs.readFile('./fixtures/output2.txt', 'utf8', (readErr, fixture2) => {
     exec('./bin/index.js ' + filename + ' --clean-names false ' +
-    '--clean-urls false --ignore-empty false', (err, stdout, stderr) => {
+    '--clean-urls true --ignore-empty false', (err, stdout, stderr) => {
       assert.ifError(stderr);
       assert.equal(stdout, fixture2);
       assert.ifError(readErr);
