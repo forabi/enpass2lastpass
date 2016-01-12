@@ -4,8 +4,8 @@
   "description": "Converts plain text files exported from Enpass to CSV output compatible with LastPass import tool",
   "main": "index.js",
   "scripts": {
-    "test": "eslint lib bin && mocha lib/*.spec.js bin/*.spec.js",
-    "coverage": "istanbul cover _mocha lib/*.spec.js bin/*.spec.js"
+    "test": "eslint lib bin && mocha {bin,lib}/*.spec.js",
+    "coverage": "istanbul cover _mocha {bin,lib}/*.spec.js"
   },
   "keywords": [],
   "author": "Muhammad Fawwaz Orabi <mfawwaz93@gmail.com> (http://forabi.github.io)",
