@@ -14,7 +14,7 @@ const fatal = e => {
 const _args = parseArgs(process.argv.slice(2));
 
 if (!_args._[0]) {
-  fatal('You must specify an Enpass export file to process.\n');
+  fatal(new Error('You must specify an Enpass export file to process.'));
 }
 
 _(fs.createReadStream(_args._[0], 'utf8'))
