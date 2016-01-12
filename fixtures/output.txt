@@ -1,0 +1,11 @@
+name,url,username,password,extra
+Google,https://www.google.com,user,aStrongPassword,
+Facebook,https://www.facebook.com,user,anotherVeryStrongPassword,
+An item with a query string,https://login.live.com/login,user,123456789,
+An item with email but without a username,https://www.anotherwebsite.com,user@gmail.com,123456789,
+Another Google account,https://www.google.com,user,123456789,
+An item with a username but without an email,https://www.twitter.com,user,123456789,
+website.com,https://www.website.com,user,123456,
+HTTPS website,https://website.com,user,123456,
+HTTP website,http://www.website.com,user,123456,
+Subdomain,http://domain.website.com,user,123456,

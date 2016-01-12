@@ -1,0 +1,87 @@
+Google
+Username user
+Email user@gmail.com
+Password aStrongPassword
+Url https://www.google.com
+
+
+Facebook
+Username user
+Email user@gmail.com
+Password anotherVeryStrongPassword
+Url https://www.facebook.com
+
+
+An item without a URL
+Username user
+Email user@gmail.com
+Password GREATPASSWORD
+
+
+An item with a query string
+Username user
+Email user@gmail.com
+Password 123456789
+Url https://login.live.com/login?q=1&something=yes
+
+
+An item without a password
+Username user
+Email user@gmail.com
+Url http://www.website.com/
+
+
+An item without a password or a url
+Username user
+Email user@gmail.com
+
+
+An item with email but without a username
+Email user@gmail.com
+Password 123456789
+Url https://www.anotherwebsite.com
+
+
+Another Google account
+Username user
+Email user@gmail.com
+Password 123456789
+Url https://www.google.com
+
+
+An item with a username but without an email
+Username user
+Password 123456789
+Url https://www.twitter.com
+
+
+Generated password for website1.com
+Username user
+Password 123456
+Url https://www.website1.com
+
+
+إنشاء كلمة السر لـ website2com
+Username user2
+Url https://www.website2.com
+
+
+HTTPS website
+Username user
+Password 123456
+Url https://website3.com
+
+
+HTTP website
+Username user
+Password 123456
+Url http://www.website4.com
+
+
+Subdomain
+Username user
+Email user@gmail.com
+Password 123456
+Url http://domain.website5.com
+
+
