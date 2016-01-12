@@ -20,4 +20,4 @@ if (!_args._[0]) {
 _(fs.createReadStream(_args._[0], 'utf8'))
 .through(toCSV(_args))
 .on('error', fatal)
-.pipe(process.stdout);
+.pipe(_args.output ? fs.createWriteStream(_args.output) : process.stdout);
