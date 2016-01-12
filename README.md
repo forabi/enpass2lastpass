@@ -1,5 +1,4 @@
-Enpass2LastPass [![Build Status](https://travis-ci.org/forabi/enpass2lastpass.svg?branch=master)](https://travis-ci.org/forabi/enpass2lastpass) 
-[![Coverage Status](https://coveralls.io/repos/forabi/enpass2lastpass/badge.svg?branch=master&service=github)](https://coveralls.io/github/forabi/enpass2lastpass?branch=master)
+Enpass2LastPass [![Build Status](https://travis-ci.org/forabi/enpass2lastpass.svg?branch=master)](https://travis-ci.org/forabi/enpass2lastpass) [![Coverage Status](https://coveralls.io/repos/forabi/enpass2lastpass/badge.svg?branch=master&service=github)](https://coveralls.io/github/forabi/enpass2lastpass?branch=master)
 =================
 
 A little script that converts plain text files produced by Enpass export tool to LastPass importable CSV.
