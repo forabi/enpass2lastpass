@@ -1,4 +1,4 @@
-Enpass2LastPass
+Enpass2LastPass ![build status](https://travis-ci.org/forabi/enpass2lastpass.svg)
 =================
 
 A little script that converts plain text files produced by Enpass export tool to LastPass importable CSV.
@@ -20,6 +20,12 @@ _Note: Node >= 5.0 is required._
   enpass2lastpass ./enpass-export.txt > lastpass-import.csv
   ```
 
+  Options:
+    * `--ignore-empty` or `-i`: removes entries that are missing both a url and a password  (default: true).
+    * `--clean-names` or `-n`: Removes 'Generated Password for ' from the title (default: true).
+    * `--clean-urls` or `-l`: Removes query strings from the URL (default: true).
+    * `--default-email` or `-e`: An email address to use for entries without a username or an email.
+  
 3. Done!
 
 Contribution
