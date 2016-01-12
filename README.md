@@ -1,4 +1,4 @@
-Enpass2LastPass ![build status](https://travis-ci.org/forabi/enpass2lastpass.svg)
+Enpass2LastPass [![Build Status](https://travis-ci.org/forabi/enpass2lastpass.svg?branch=master)](https://travis-ci.org/forabi/enpass2lastpass)
 =================
 
 A little script that converts plain text files produced by Enpass export tool to LastPass importable CSV.
